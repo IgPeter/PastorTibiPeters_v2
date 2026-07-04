@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>PastorTibiPeters_v2</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<!--I added this-->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to your location</string>
+	<!--Section i added closed here-->
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Satoshi-Black.otf</string>
+		<string>Satoshi-BlackItalic.otf</string>
+		<string>Satoshi-Bold.otf</string>
+		<string>Satoshi-BoldItalic.otf</string>
+		<string>Satoshi-Italic.otf</string>
+		<string>Satoshi-Light.otf</string>
+		<string>Satoshi-LightItalic.otf</string>
+		<string>Satoshi-Medium.otf</string>
+		<string>Satoshi-MediumItalic.otf</string>
+		<string>Satoshi-Regular.otf</string>
+		<string>SUSE-Bold.ttf</string>
+		<string>SUSE-ExtraBold.ttf</string>
+		<string>SUSE-ExtraLight.ttf</string>
+		<string>SUSE-Light.ttf</string>
+		<string>SUSE-Medium.ttf</string>
+		<string>SUSE-Regular.ttf</string>
+		<string>SUSE-SemiBold.ttf</string>
+		<string>SUSE-Thin.ttf</string>
+		<string>Burkhan.otf</string>
+		<string>SoulDaisy.otf</string>
+		<string>Quicksand-Bold.ttf</string>
+		<string>Quicksand-Light.ttf</string>
+		<string>Quicksand-Medium.ttf</string>
+		<string>Quicksand-Regular.ttf</string>
+		<string>Quicksand-SemiBold.ttf</string>
+		<string>SUSE.ttf</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+	<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+		<string>pastortibipetersonline</string>
+		</array>
+	</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+[
+  {
+    "_id": {"$oid": "644e06fd958a187e6d90fd2f"},
+    "name": "Video",
+    "color": "red",
+    "__v": {"$numberInt": "0"}
+  },
+  {
+    "_id": {"$oid": "644fe0a9d9a63a943336b999"},
+    "name": "Audio",
+    "color": "yellow",
+    "__v": {"$numberInt": "0"}
+  },
+  {
+    "_id": {"$oid": "6455fd14e491a650ea762280"},
+    "name": "Book",
+    "color": "green",
+    "__v": {"$numberInt": "0"}
+  }
+]
